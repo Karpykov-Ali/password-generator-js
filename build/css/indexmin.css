@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500);
+@import url(https://fonts.googleapis.com/css?family=Karla:800);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+section,
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+address {
+  font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  max-width: 530px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #D5D4D8;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.generator-page {
+  background: #1F2937;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.generator-page__body {
+  max-width: 372px;
+}
+.generator-page__content h1 {
+  color: #fff;
+  font-family: Karla;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+.generator-page__content h1 span {
+  color: #4ADF86;
+}
+.generator-page__content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+.generator-page__content button {
+  display: inline-block;
+  color: #FFF;
+  line-height: 150%;
+  border-radius: 6px;
+  background: #10B981;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  transition: 0.4s;
+  margin-bottom: 35px;
+  padding: 9px 15px;
+}
+.generator-page__content button:hover {
+  background: #07da94;
+}
+.generator-page__options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.generator-page__options input {
+  cursor: pointer;
+  accent-color: #07da94;
+}
+.generator-page__border {
+  border-bottom: 1px solid #404f65;
+  margin-bottom: 35px;
+}
+.generator-page__passwords {
+  display: flex;
+  column-gap: 15px;
+}
+.generator-page__passwords p {
+  text-align: center;
+  color: #55F991;
+  border-radius: 6px;
+  background: #273549;
+  width: 100%;
+  min-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 12px 10px 0 10px;
+}
