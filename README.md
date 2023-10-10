@@ -1,3 +1,3 @@
 # password generator js
 
-[LINK TO THE SITE](https://karpykov-ali.github.io/password-generator-js/).
+[link to the site](https://alikarpykov.github.io/password-generator-js/)
